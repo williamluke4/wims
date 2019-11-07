@@ -1,4 +1,3 @@
-#!/usr/bin/env ts-node
 
 // warnings: no tanks
 // hides ExperimentalWarning: The fs.promises API is experimental

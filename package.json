@@ -1,13 +1,14 @@
 {
   "name": "wims",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "author": "William Luke",
   "main": "dist/index.js",
   "module": "dist/wims.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "build"
   ],
   "bin": {
     "wims": "build/index.js"
