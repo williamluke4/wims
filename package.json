@@ -1,13 +1,11 @@
 {
   "name": "wims",
-  "version": "0.1.2",
+  "version": "0.1.6",
   "license": "MIT",
-  "author": "William Luke",
-  "main": "dist/index.js",
-  "module": "dist/wims.esm.js",
-  "typings": "dist/index.d.ts",
+  "author": "William Luke <williamluke4@gmail.com",
+  "private": false,
+  "repository": "git@github:williamluke4/wims.git",
   "files": [
-    "dist",
     "build"
   ],
   "bin": {
@@ -16,7 +14,8 @@
   "scripts": {
     "tsc": "tsc -d",
     "ncc": "ncc build dist/bin.js -o build",
-    "build": "yarn tsc && yarn ncc"
+    "build": "yarn tsc && yarn ncc",
+    "release": "auto shipit"
   },
   "peerDependencies": {},
   "prettier": {
@@ -26,6 +25,8 @@
     "trailingComma": "es5"
   },
   "devDependencies": {
+    "@auto-it/conventional-commits": "^7.13.1",
+    "auto": "^7.13.1",
     "tslib": "^1.10.0",
     "typescript": "^3.7.2"
   },

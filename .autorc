@@ -1,0 +1,7 @@
+{
+  "owner": "williamluke4",
+  "repo": "wims",
+  "plugins": [
+    "conventional-commits"
+  ]
+}
