@@ -7,7 +7,10 @@
 ```bash
 npm install -g wims
 ```
-
+OR
+```bash
+npx wims
+```
 ## Usage
 
 ```bash

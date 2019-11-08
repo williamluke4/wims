@@ -1,6 +1,6 @@
 {
   "name": "wims",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "author": "William Luke <williamluke4@gmail.com",
   "private": false,
@@ -15,9 +15,7 @@
     "tsc": "tsc -d",
     "ncc": "ncc build dist/bin.js -o build",
     "build": "yarn tsc && yarn ncc",
-    "version": "npm version `auto version` -m 'Bump version to: %s [skip ci]'",
-    "publish": "npm publish && git push --follow-tags --set-upstream origin $branch",
-    "release": "auto changelog && npm run version && npm run publish && auto release"
+    "release": "auto shipit"
   },
   "peerDependencies": {},
   "prettier": {
