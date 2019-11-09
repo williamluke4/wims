@@ -1,3 +1,19 @@
+# v0.2.0 (Sat Nov 09 2019)
+
+#### 🚀  Enhancement
+
+- feat: Add Auto Versioning  (william@ordino.ai)
+
+#### 🐛  Bug Fix
+
+- fix: Auto NPM Publish  (william@ordino.ai)
+
+#### Authors: 1
+
+- William Luke (william@ordino.ai)
+
+---
+
 # v0.1.6 (Sat Nov 09 2019)
 
 #### 🐛  Bug Fix
