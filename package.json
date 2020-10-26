@@ -25,16 +25,16 @@
     "trailingComma": "es5"
   },
   "devDependencies": {
-    "@auto-it/conventional-commits": "^7.13.1",
-    "auto": "^7.13.1",
-    "tslib": "^1.10.0",
-    "typescript": "^3.7.2"
+    "@auto-it/conventional-commits": "7.13.1",
+    "auto": "7.13.1",
+    "tslib": "1.10.0",
+    "typescript": "3.7.2"
   },
   "dependencies": {
-    "@zeit/ncc": "^0.20.5",
-    "arg": "^4.1.1",
-    "chalk": "^2.4.2",
-    "execa": "^3.2.0",
-    "strip-indent": "^3.0.0"
+    "@zeit/ncc": "0.20.5",
+    "arg": "4.1.1",
+    "chalk": "2.4.2",
+    "execa": "3.2.0",
+    "strip-indent": "3.0.0"
   }
 }
